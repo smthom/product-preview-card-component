@@ -1,0 +1,116 @@
+:root {
+	--off_black: hsl(0, 0%, 15%);
+	--cream: hsl(30, 38%, 92%);
+	--mid_grey: hsl(0, 0%, 55%);
+	--dark_cyan: hsl(158, 36%, 37%);
+	--very_dark_cyan: hsl(157, 27%, 20%);
+	--white: hsl(0, 0%, 100%);
+}
+body {
+	font-size: 14px;
+	font-family: 'Montserrat', 'Fraunces', sans-serif;
+	height: 100vh;
+	background-color: var(--cream);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-type {
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+h2 {
+	color: var(--off_black);
+	font-family: 'Fraunces';
+	font-size: 30px;
+	line-height: 30px;
+	margin-top: 0px;
+}
+p {
+	color: var(--mid_grey);
+	line-height: 23px;
+}
+.preview-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 560px;
+}
+.image-segment {
+	background-color: var(--white);
+	border-radius: 10px 0px 0px 10px;
+	height: 420px;
+}
+.image-segment img {
+	height: 420px;
+	border-radius: 10px 0px 0px 10px;	
+}
+.description-segment {
+	background-color: var(--white);
+	height: 420px;
+	border-radius: 0px 10px 10px 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.current-price{
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: var(--dark_cyan);
+	line-height: 35px;
+}
+del {
+	padding-left: 15px;
+	position: relative;
+	bottom: 5px;
+}
+.add-to-cart-btn {
+	border: none;
+	background-color: var(--dark_cyan);
+	color: var(--white);
+	width: 218px;
+	height: 38px;
+	border-radius: 7px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.add-to-cart-btn:hover {
+	background-color: var(--very_dark_cyan);
+}
+svg {
+	position: relative;
+	top: 2px;
+	right: 6px;
+}
+.attribution {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+@media screen and (max-width: 700px) {
+	.preview-container {
+		grid-template-columns: auto;
+		width: 340px;
+	}
+	.image-segment {
+		border-radius: 10px 10px 0px 0px;
+		height: 250px; 
+	}
+	.image-segment img {
+		content: url("images/image-product-mobile.jpg");
+		border-radius: 10px 10px 0px 0px;
+		height: 250px;
+		width: 340px;
+	}
+	p {
+		line-height: 19px;
+	}
+	.description-segment {
+		border-radius: 0px 0px 10px 10px;
+		height: 360px;
+	}
+	.add-to-cart-btn {
+		width: 280px;
+	}
+}
