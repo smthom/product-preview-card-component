@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/smthom/product-preview-card-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -48,27 +46,8 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This was mostly revision from what I have previously learned. Just before the challenge however I did spend a little time on using SVGs as I struggled for a time to manipulate them such as changing the colours etc. Due to that learning
+applying the SVG to the button proved to be a quick process. I'm please to see that in compeleting projects some processes I'm going through are starting to get a little faster.
 
 ### Continued development
 
@@ -76,16 +55,10 @@ I've been pulled away from learning Web development due to life commitments. Thi
 
 My aim for the time being is to try more challenges from Frontend Mentor.
 
-
-
 ### Useful resources
 
 - [W3 Schools](https://www.w3schools.com/css/default.asp) - I find this a useful reference to remind of how CSS works. Its quick to find subjects on it.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@smthom](https://www.frontendmentor.io/profile/smthom)
