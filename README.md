@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/smthom/product-preview-card-component)
-- Live Site URL: [Live Site](https://smthom.github.io/product-preview-card-component/index.html)
+- Live Site URL: [Live Site](https://smthom.github.io/product-preview-card-component/)
 
 ## My process
 
